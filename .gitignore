@@ -1,0 +1,4 @@
+.DS_Store
+__pycache__
+.mypy_cache
+zappa_settings.py
