@@ -6,7 +6,7 @@ authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-zappa = { git = "https://github.com/ian-whitestone/Zappa.git", branch = "add-docker-support" }
+zappa = "^0.53.0"
 flask = "^1.1.2"
 
 [tool.poetry.dev-dependencies]

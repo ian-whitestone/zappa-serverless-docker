@@ -15,17 +15,5 @@
             }
         ],
         "lambda_description": "Zappa + Docker + Flask"
-    },
-    "lambda_flask": {
-        "app_function": "zdf.app.app",
-        "profile_name": "default",
-        "project_name": "test",
-        "log_level": "INFO",
-        "runtime": "python3.7",
-        "s3_bucket": "lambda-docker-flask",
-        "environment_variables": {
-            "EXAMPLE_ENV_VAR": "prod"
-        },
-        "lambda_description": "Zappa + Flask"
     }
 }
