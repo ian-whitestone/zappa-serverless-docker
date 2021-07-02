@@ -14,6 +14,7 @@
                "expression": "cron(* * * * ? *)"
             }
         ],
-        "lambda_description": "Zappa + Docker + Flask"
+        "lambda_description": "Zappa + Docker + Flask",
+        "timeout_seconds": 15
     }
 }
