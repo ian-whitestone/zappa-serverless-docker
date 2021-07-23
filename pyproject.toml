@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "lambda-docker-flask"
+name = "zappa-flask-test"
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-zappa = "^0.53.0"
+zappa = { git = "https://github.com/ian-whitestone/Zappa.git", branch = "add-docker-support" }
 flask = "^1.1.2"
 
 [tool.poetry.dev-dependencies]
